@@ -1,0 +1,21 @@
+
+td {
+  border: 1px solid #ccc;
+  padding: 7px 10px;
+  width: 15px;
+  text-align: center;
+  cursor: pointer;
+  font: bold 16px arial;
+  background-color: #fffffa;
+}
+td.mark {
+  color: red;
+  background-color: #ccc;
+}
+td.bomb {
+  color: red;
+}
+.lost td.bomb {
+  color: yellow;
+  background-color: black
+}
